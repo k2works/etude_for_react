@@ -19,6 +19,11 @@ Reactの練習
 1. [開発](#開発 )
 
 ## 構築
+Install create-react-app
+```
+npm install -g create-react-app
+```
+
 **[⬆ back to top](#構成)**
 
 ## 配置
@@ -28,6 +33,12 @@ Reactの練習
 **[⬆ back to top](#構成)**
 
 ## 開発
+Create our new project
+```
+create-react-app client
+cd client
+npm start
+```
 **[⬆ back to top](#構成)**
 
 # 参照 #
