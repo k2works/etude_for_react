@@ -39,6 +39,16 @@ create-react-app client
 cd client
 npm start
 ```
+ESLint
+```
+npm info eslint-config-airbnb@latest peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --dev eslint-config-airbnb@latest
+npm install --dev eslint
+npm install --dev eslint-plugin-compat
+```
+Flow
+```
+npm install --dev flow-bin babel-preset-flow babel-eslint eslint-plugin-flowtype
+```
 **[⬆ back to top](#構成)**
 
 # 参照 #
