@@ -9,7 +9,7 @@ type Props = {
 }
 
 type State = {
-  currentEnthusiasm: 0;
+  currentEnthusiasm: number;
 }
 
 function getExclamationMarks(numChars: number) {
