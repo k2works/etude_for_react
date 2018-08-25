@@ -27,6 +27,13 @@ npm install -g create-react-app
 **[⬆ back to top](#構成)**
 
 ## 配置
+```
+aws s3 mb s3://etude-for-react
+aws s3 ls
+npm run build && aws s3 sync build/ s3://etude-for-react --grants full=uri=http://acs.amazonaws.com/groups/global/AllUsers
+aws s3 website s3://etude-for-react/ --index-document index.html --error-document error.html
+open  http://etude-for-react.s3-website-us-east-1.amazonaws.com
+```
 **[⬆ back to top](#構成)**
 
 ## 運用
@@ -75,4 +82,5 @@ npx flow-typed install react-redux
 + [Hello World](https://reactjs.org/docs/hello-world.html)
 + [TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter)
 + [flow-typed](https://github.com/flow-typed/flow-typed)
++ [Deploying create-react-app to S3 and CloudFront](https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af)
  
