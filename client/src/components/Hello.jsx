@@ -1,6 +1,7 @@
 // @flow
 /* eslint-disable no-use-before-define */
 import * as React from 'react';
+import './Hello.css';
 
 type Props = {
   name: string,
