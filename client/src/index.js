@@ -1,8 +1,18 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import Hello from './components/StatefulHello';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import Hello from './containers/Hello';
+import { enthusiasm } from './reducers/index';
+
+const store = createStore(enthusiasm, {
+  enthusiasmLevel: 1,
+  languageName: 'ES6',
+});
 
 ReactDOM.render(
-  <Hello name="React" enthusiasmLevel={10} />,
+  <Provider store={store}>
+    <Hello />
+  </Provider>,
   document.getElementById('root'),
 );

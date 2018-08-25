@@ -53,13 +53,20 @@ npm install --dev eslint-plugin-compat
 
 Flow
 ```
-npm install --dev flow-bin babel-preset-flow babel-eslint eslint-plugin-flowtype
+npm install --dev flow-bin babel-preset-flow babel-eslint eslint-plugin-flowtype flow-typed
 npx flow init
+npx flow-typed install
 ```
 
 Jest
 ```
 npm install -D enzyme enzyme-adapter-react-16 react-test-renderer
+```
+
+Redux
+```
+npm install -S redux react-redux
+npx flow-typed install react-redux
 ```
 
 **[⬆ back to top](#構成)**

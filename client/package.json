@@ -15,7 +15,9 @@
     "flow-bin": "^0.79.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5"
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,6 +32,7 @@
     "@types/enzyme-adapter-react-16": "^1.0.3",
     "enzyme": "^3.4.4",
     "enzyme-adapter-react-16": "^1.2.0",
+    "flow-typed": "^2.5.1",
     "react-test-renderer": "^16.4.2"
   }
 }
