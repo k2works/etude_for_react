@@ -45,9 +45,16 @@ npm info eslint-config-airbnb@latest peerDependencies --json | command sed 's/[\
 npm install --dev eslint
 npm install --dev eslint-plugin-compat
 ```
+
+Compat
+```
+npm install --dev eslint-plugin-compat
+```
+
 Flow
 ```
 npm install --dev flow-bin babel-preset-flow babel-eslint eslint-plugin-flowtype
+npx flow init
 ```
 **[⬆ back to top](#構成)**
 

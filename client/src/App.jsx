@@ -1,4 +1,4 @@
-/* eslint-disable react/prefer-stateless-function,react/jsx-filename-extension */
+/* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
