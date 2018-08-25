@@ -19,6 +19,7 @@ function Hello(props: Props) {
     <div className="hello">
       <div className="greeting">
         Hello
+        {' '}
         {name + getExclamationMarks(enthusiasmLevel)}
       </div>
     </div>

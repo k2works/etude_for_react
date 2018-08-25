@@ -56,6 +56,12 @@ Flow
 npm install --dev flow-bin babel-preset-flow babel-eslint eslint-plugin-flowtype
 npx flow init
 ```
+
+Jest
+```
+npm install -D enzyme enzyme-adapter-react-16 react-test-renderer
+```
+
 **[⬆ back to top](#構成)**
 
 # 参照 #
