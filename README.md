@@ -72,4 +72,7 @@ npx flow-typed install react-redux
 **[⬆ back to top](#構成)**
 
 # 参照 #
++ [Hello World](https://reactjs.org/docs/hello-world.html)
++ [TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter)
++ [flow-typed](https://github.com/flow-typed/flow-typed)
  
